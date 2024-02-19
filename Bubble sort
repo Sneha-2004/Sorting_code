@@ -1,0 +1,45 @@
+
+#include<iostream>
+using namespace std;
+void insertArray(int a[], int n) {
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+}
+void displayArray(int a[], int n) {
+    for (int i = 0; i < n; i++)
+        cout << a[i] << " ";
+}
+void swap(int &x, int &y) {
+    int t = x;
+    x = y;
+    y = t;
+}
+void bubbleSort(int a[], int n) {
+    for (int i = 0; i <= n - 2; i++) {
+        for (int j = 0; j <= n - i - 2; j++) {
+            if (a[j] > a[j + 1]) 
+                swap(a[j], a[j + 1]);
+        }
+    }
+}
+int main() {
+    int n;
+    cout << "\nEnter the size of the array: ";
+    cin >> n;
+
+    int a[n];
+    cout << "\nEnter the array elements: ";
+    insertArray(a, n);
+    cout << "\nUnsorted array elements are: ";
+    displayArray(a, n);
+    bubbleSort(a, n);
+    cout << "\nSorted array elements are: ";
+    displayArray(a, n);
+    return 0;
+}
+
+Output:
+Enter the size of the array: 5
+Enter the array elements: 6 1 88 33 22
+Unsorted array elements are: 6 1 88 33 22 
+Sorted array elements are: 1 6 22 33 88 
