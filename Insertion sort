@@ -48,8 +48,4 @@ int main()
 
 }
 
- Output:
-Enter the size of array:5
-Enter the array elements:7 11 23 5 44
-Unsorted array elements are:711 23 5 44 
-Sorted array elements are:5 7 11 23 44 
+ 
