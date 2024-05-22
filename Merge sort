@@ -60,12 +60,3 @@ int main()
 	cout<<"\nSorted: \n";
 	displayArray(a,n);
 }
-
-Output:
-Array size: 6
-Array Elements: 
-5 1 9 3 7 2
-Unsorted: 
-5 1 9 3 7 2 
-Sorted: 
-1 2 3 5 7 9 
