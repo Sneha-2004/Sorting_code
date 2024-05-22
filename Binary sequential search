@@ -59,17 +59,3 @@ int main()
 	return r;
 }
 
-Output:
-Enter array size:6
-Enter the elements:
- Enter 1st element:4
- enter the element of array:8
- enter the element of array:2
- not a sorted data.please enter data in sorted order
- enter the element of array:11
- enter the element of array:15
- enter the element of array:18
- enter the element of array:21
- The array element:4 8 11 15 18 21 
- Enter data to be searched:18
- found at:5
