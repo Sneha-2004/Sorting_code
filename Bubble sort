@@ -37,9 +37,3 @@ int main() {
     displayArray(a, n);
     return 0;
 }
-
-Output:
-Enter the size of the array: 5
-Enter the array elements: 6 1 88 33 22
-Unsorted array elements are: 6 1 88 33 22 
-Sorted array elements are: 1 6 22 33 88 
