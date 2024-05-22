@@ -47,8 +47,3 @@ int main()
 	displayArray(a,n);
 	
 }
- Output:
-Enter the size of array:5
-Enter the array elements:10 5 3 28 8
-Unsorted array elements are:10 5 3 28 8 
-Sorted array elements are:3 5 8 10 28
